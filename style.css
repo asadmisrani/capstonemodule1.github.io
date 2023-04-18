@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.overFlow {
+  overflow: hidden;
+}
+
+.navbar-menu,
+.navbar-social {
+  display: none !important;
+}
+
+.bar {
+  display: block;
+  width: 2rem;
+  height: 0.3rem;
+  margin: 0.3rem;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease;
+  background-color: #424141;
+}
+
+.hamburger {
+  margin: 2rem;
+}
+
+.intro-main {
+  background-image: url(Images/BackgroundHomePageMobile.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: -5rem;
+  z-index: 1;
+}
+
+.intro-about {
+  background-image: url(Images/BackgroundAboutMobile.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.intro {
+  width: 90%;
+  margin: 0 5% 0 5%;
+  padding: 4rem 0 7rem;
+}
