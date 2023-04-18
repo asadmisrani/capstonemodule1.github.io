@@ -48,3 +48,28 @@ const featuredSpeakers = [
     class: 'speaker6',
   },
 ];
+
+// Dinamic Section Speakers
+const speakersCard = document.querySelector('.grid-container');
+
+featuredSpeakers.forEach((postData) => {
+  const card = document.createElement('div');
+  if (postData.n > 1) {
+    card.classList = 'card card-hidden';
+  } else {
+    card.classList = 'card';
+  }
+  // card.classList.add('card', postData.class);
+  card.innerHTML = `
+    <div class="featuredSpeakers">
+      <img class="cardImg" src="${postData.portrait}" alt="Speaker Image">
+      <div class="speakersInfo">
+        <h5 class="speakerName">${postData.name}</h5>
+        <h6 class="speakerPosition">${postData.position}</h6>
+        <div class="speakerBar"></div>
+        <p class="speakerExperience">${postData.resume}</p>
+      </div>
+    </div>
+  `;
+  speakersCard.appendChild(card);
+});
