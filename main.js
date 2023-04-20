@@ -73,3 +73,57 @@ featuredSpeakers.forEach((postData) => {
   `;
   speakersCard.appendChild(card);
 });
+
+// more button
+
+const speakersButton = document.getElementById('mbutton');
+const textSpeakersButton = document.querySelector('.more-button-p');
+
+speakersButton.addEventListener('click', () => {
+  const hiddenCards = document.querySelectorAll('.card-hidden');
+  hiddenCards.forEach((card) => {
+    card.classList.toggle('show');
+    card.classList.toggle('card-hidden');
+  });
+  if (textSpeakersButton.innerText === 'MORE') {
+    textSpeakersButton.innerText = 'LESS';
+  } else {
+    textSpeakersButton.innerText = 'MORE';
+    const showCards = document.querySelectorAll('.show');
+    showCards.forEach((card) => {
+      card.classList.remove('show');
+      card.classList.toggle('card-hidden');
+    });
+  }
+});
+
+// hamburguer menu
+const hamburger = document.querySelector('.hamburger');
+const navMenu = document.querySelector('.nav-menu');
+const navBarMenu = document.querySelector('.navbar-menu');
+const logo = document.querySelector('.logo');
+const main = document.querySelector('.main');
+const closeButton = document.createElement('button');
+const body = document.querySelector('body');
+
+hamburger.addEventListener('click', () => {
+  closeButton.classList.add('xButton');
+  navMenu.appendChild(closeButton);
+  hamburger.classList.toggle('active');
+  navMenu.classList.toggle('active');
+  main.classList.toggle('active');
+  navBarMenu.classList.add('display');
+  logo.classList.add('hidden');
+  body.classList.add('overFlow');
+  const closeButtonAction = document.querySelector('.xButton');
+  closeButtonAction.addEventListener('click', () => {
+    window.location.reload();
+  });
+});
+
+document.querySelectorAll('.link-menu').forEach((n) => n.addEventListener('click', () => {
+  hamburger.classList.remove('active');
+  navMenu.classList.remove('active');
+  main.classList.remove('active');
+  body.classList.remove('overFlow');
+}));
