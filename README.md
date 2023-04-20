@@ -136,14 +136,6 @@ Example command:
 ```
 --->
 
-### Run tests
-
-To run tests, run the following command:
-
-```bash
- npx hint .
-```
-
 <!--
 Example command:
 
