@@ -55,11 +55,6 @@
 - **[Beautifull Icons]**
 - **[Dynamic Pages]**
 
-- Creating branches on repositories.
-- Use of linter on HTML&CSS&js projects.
-- Write a correct descriptive README file.
-- Correct use of GitHub flow.
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
