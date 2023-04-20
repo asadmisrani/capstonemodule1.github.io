@@ -1,31 +1,11 @@
 <a name="readme-top"></a>
 
-<!--
-HOW TO USE:
-This is an example of how you may give instructions on setting up your project locally.
+<div align="center">
 
-Modify this file to match your project and remove sections that don't apply.
+  <h3><b> HTML + basic JavaScript Capstone MODULE 1</b></h3>
+  <h3><b>Conference Page - Creationism vs Evolution Global Summit 2023</b></h3>
 
-REQUIRED SECTIONS:
-- Table of Contents
-- About the Project
-  - Built With
-  - Live Demo
-- Getting Started
-- Authors
-- Future Features
-- Contributing
-- Show your support
-- Acknowledgements
-- License
-
-OPTIONAL SECTIONS:
-- FAQ
-
-After you're finished please remove all the comments and instructions!
--->
-
-<!-- TABLE OF CONTENTS -->
+</div>
 
 # 📗 Table of Contents
 
@@ -50,9 +30,9 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Capstone: HTML + basic JavaScript <a name="about-project"></a>
+# 📖 Capstone: HTML + basic JavaScript Module 1 <a name="about-project"></a>
 
-This HTML + basic JavaScript Capstone is a compedium of my projects as it continue scaling in web development skills at Mmicroverse. Ii tis a work-in-progress which will be updated overtime.
+**Creationism vs Evolution Global Summit 2023** This is based on an online website for a conference according to design guidelines provided by Microverse. Trought this capstone Module 1 project I show the main abilities adquired so far in the **Module 1 - The Portal**. In this Module I learned about HTML, CSS and an brief introduction to javaScript.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -75,6 +55,11 @@ This HTML + basic JavaScript Capstone is a compedium of my projects as it contin
 - **[Beautifull Icons]**
 - **[Dynamic Pages]**
 
+- Creating branches on repositories.
+- Use of linter on HTML&CSS&js projects.
+- Write a correct descriptive README file.
+- Correct use of GitHub flow.
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
@@ -82,6 +67,8 @@ This HTML + basic JavaScript Capstone is a compedium of my projects as it contin
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 - [Live Demo Link](https://asadmisrani.github.io/capstonemodule1.github.io/)
+
+- This is the [Loom Walktrough Video](https://www.loom.com/share/60bcd67bfb264ba081ae8ac442537624) of my project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -95,6 +82,11 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 
+- Create a repo on your repositores files.
+- Clone or make a copy of this repo on your local machine.
+- Follow GitHub flow.
+- A carefully reading of this README.md is required.
+
 <!--
 Example command:
 
@@ -106,6 +98,10 @@ Example command:
 ### Setup
 
 Clone this repository to your desired folder:
+
+bash
+cd my-folder
+git clone git@github.com:asadmisrani/portfoliofinishmobileversion.github.io.git
 
 <!--
 Example commands:
@@ -119,6 +115,10 @@ Example commands:
 ### Install
 
 Install this project with:
+
+```bash
+npm install
+```
 
 <!--
 Example command:
@@ -145,6 +145,10 @@ Example command:
 
 To run tests, run the following command:
 
+```bash
+ npx hint .
+```
+
 <!--
 Example command:
 
@@ -155,7 +159,7 @@ Example command:
 
 ### Deployment
 
-You can deploy this project using:
+- You can use GitHub Pages to deploy this project.
 
 <!--
 Example:
@@ -183,9 +187,10 @@ Example:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Work Section]**
-- [ ] **[About Me]**
-- [ ] **[Contact Me]**
+- [ ] _Use of linter in HTML&CSS&JS projects_
+- [ ] _Use README template file_
+- [ ] _Ask for a code review_
+- [ ] _Follow the guideliness for this ["Conference Page"](git@github.com:asadmisrani/capstonemodule1.github.io.git) capstone project._
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
