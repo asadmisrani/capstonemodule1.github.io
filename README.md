@@ -63,7 +63,7 @@
 
 - [Live Demo Link](https://asadmisrani.github.io/capstonemodule1.github.io/)
 
-- This is the [Loom Walktrough Video](https://www.loom.com/share/5582d18bc55e4536b711865dcf82a5b0) of my project.
+- This is the [Loom Walktrough Video](https://www.loom.com/share/356aee85b45240a6b7cb4632127f95bb) of my project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
