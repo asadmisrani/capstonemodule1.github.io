@@ -535,6 +535,7 @@ body {
   .nav-social-text {
     font-size: 0.75rem;
     line-height: 1rem;
+    color: white !important;
   }
 
   .nav-social-text:hover {
