@@ -61,6 +61,7 @@ featuredSpeakers.forEach((postData) => {
   }
   // card.classList.add('card', postData.class);
   card.innerHTML = `
+  <article>
     <div class="featuredSpeakers">
       <img class="cardImg" src="${postData.portrait}" alt="Speaker Image">
       <div class="speakersInfo">
@@ -70,6 +71,7 @@ featuredSpeakers.forEach((postData) => {
         <p class="speakerExperience">${postData.resume}</p>
       </div>
     </div>
+    </article>
   `;
   speakersCard.appendChild(card);
 });

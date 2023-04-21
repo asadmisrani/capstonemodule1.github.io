@@ -125,6 +125,7 @@ body {
   opacity: 1;
   mix-blend-mode: lighten;
   z-index: -1 !important;
+  border: 1px solid white;
 }
 
 .t-main {

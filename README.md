@@ -203,7 +203,7 @@ If you like this project Please give thumbs up.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank to Microverse.
+I would like to thank to Cindy Shin design.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
